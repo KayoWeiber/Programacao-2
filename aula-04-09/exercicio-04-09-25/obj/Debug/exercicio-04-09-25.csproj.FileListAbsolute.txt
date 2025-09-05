@@ -1,0 +1,10 @@
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\bin\Debug\exercicio-04-09-25.exe.config
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\bin\Debug\exercicio-04-09-25.exe
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\bin\Debug\exercicio-04-09-25.pdb
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\obj\Debug\exercicio-04-09-25.csproj.AssemblyReference.cache
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\obj\Debug\exercicio_04_09_25.Mini.resources
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\obj\Debug\exercicio_04_09_25.Properties.Resources.resources
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\obj\Debug\exercicio-04-09-25.csproj.GenerateResource.cache
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\obj\Debug\exercicio-04-09-25.csproj.CoreCompileInputs.cache
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\obj\Debug\exercicio-04-09-25.exe
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\exercicio-04-09-25\obj\Debug\exercicio-04-09-25.pdb

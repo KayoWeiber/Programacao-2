@@ -1,0 +1,10 @@
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\bin\Debug\aula-04-09.exe.config
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\bin\Debug\aula-04-09.exe
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\bin\Debug\aula-04-09.pdb
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\obj\Debug\aula-04-09.csproj.AssemblyReference.cache
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\obj\Debug\aula_04_09.Form1.resources
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\obj\Debug\aula_04_09.Properties.Resources.resources
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\obj\Debug\aula-04-09.csproj.GenerateResource.cache
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\obj\Debug\aula-04-09.csproj.CoreCompileInputs.cache
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\obj\Debug\aula-04-09.exe
+C:\Users\caiov\OneDrive\Documentos\GitHub\Programacao-2\aula-04-09\aula-04-09\obj\Debug\aula-04-09.pdb
