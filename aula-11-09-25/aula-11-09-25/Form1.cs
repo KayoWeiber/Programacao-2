@@ -85,5 +85,14 @@ namespace aula_11_09_25
             MessageBox.Show(dlgFonte.Font.ToString());
             MessageBox.Show(dlgFonte.Color.ToString());
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            //f2.show
+            //f2.ShowDialog();
+            f2.Show();
+            //this.Close();
+        }
     }
 }
