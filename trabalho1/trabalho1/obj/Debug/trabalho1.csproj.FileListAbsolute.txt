@@ -1,0 +1,11 @@
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\bin\Debug\trabalho1.exe.config
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\bin\Debug\trabalho1.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\bin\Debug\trabalho1.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.csproj.AssemblyReference.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.Form1.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.Properties.Resources.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.csproj.GenerateResource.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.csproj.CoreCompileInputs.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\trabalho1\trabalho1\obj\Debug\trabalho1.exe.config
