@@ -1,0 +1,13 @@
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\bin\Debug\aula25-09-25.exe.config
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\bin\Debug\aula25-09-25.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\bin\Debug\aula25-09-25.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25-09-25.csproj.AssemblyReference.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25_09_25.frmPrincipal.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25_09_25.frmJanela.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25_09_25.frmModal.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25_09_25.Properties.Resources.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25-09-25.csproj.GenerateResource.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25-09-25.csproj.CoreCompileInputs.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25-09-25.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25-09-25.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aula25-09-25\obj\Debug\aula25-09-25.exe.config

@@ -1,0 +1,12 @@
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\bin\Debug\aulaPart2-25-09.exe.config
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\bin\Debug\aulaPart2-25-09.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\bin\Debug\aulaPart2-25-09.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2-25-09.csproj.AssemblyReference.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2_25_09.frmPrincipal.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2_25_09.frmDocumento.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2_25_09.Properties.Resources.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2-25-09.csproj.GenerateResource.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2-25-09.csproj.CoreCompileInputs.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2-25-09.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2-25-09.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula25-09-25\aulaPart2-25-09\obj\Debug\aulaPart2-25-09.exe.config
