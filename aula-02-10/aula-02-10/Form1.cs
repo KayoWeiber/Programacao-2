@@ -22,7 +22,7 @@ namespace aula_02_10
         {
             Environment.Exit(0);
         }
-        
+
         private MySqlDataReader CarregarRegistro(string sql)
         {
             try
@@ -36,11 +36,11 @@ namespace aula_02_10
                 dr.Read();
                 if (dr.HasRows)
                 {
-                    return(dr);
+                    return (dr);
                 }
                 else
                 {
-                    return dr;
+                    return null;
                 }
                 cn.Close();
 
@@ -48,9 +48,9 @@ namespace aula_02_10
             catch (MySqlException ex)
             {
                 MessageBox.Show(ex.ToString());
-            return null;
+                return null;
             }
-           
+
         }
         private void CarregaDados(MySqlDataReader dr)
         {
@@ -124,6 +124,29 @@ namespace aula_02_10
             {
                 MessageBox.Show("O banco de dados está vázio!", "Cadastro de e-mail", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 LimparDados();
+            }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            Form form = new frmLista();
+            DialogResult resp = form.ShowDialog();
+            if (resp == DialogResult.OK)
+            {
+                string id_busca = parametro.buscaId.ToString();
+                string sql = "Select * from aula1 where id= " + id_busca;
+                MySqlDataReader dr = CarregarRegistro(sql);
+                if (dr != null)
+                    CarregaDados(dr);
+                else
+                {
+                    
+                    MessageBox.Show("O id " + id_busca + " não foi encontrado!", "Busca de id", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            else
+            {
+                //MessageBox.Show("Busca cancelada!", "Busca de id", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

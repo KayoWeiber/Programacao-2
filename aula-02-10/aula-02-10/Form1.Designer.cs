@@ -37,10 +37,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnFechar = new System.Windows.Forms.Button();
             this.pnButton = new System.Windows.Forms.Panel();
-            this.btnPrimeiro = new System.Windows.Forms.Button();
-            this.btnSegundo = new System.Windows.Forms.Button();
-            this.btnTerceiro = new System.Windows.Forms.Button();
             this.btnQuarto = new System.Windows.Forms.Button();
+            this.btnTerceiro = new System.Windows.Forms.Button();
+            this.btnSegundo = new System.Windows.Forms.Button();
+            this.btnPrimeiro = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnButton.SuspendLayout();
             this.SuspendLayout();
@@ -58,7 +59,7 @@
             // txtNom
             // 
             this.txtNom.Location = new System.Drawing.Point(62, 116);
-            this.txtNom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNom.Margin = new System.Windows.Forms.Padding(4);
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(403, 35);
             this.txtNom.TabIndex = 1;
@@ -85,7 +86,7 @@
             // txtemail
             // 
             this.txtemail.Location = new System.Drawing.Point(64, 199);
-            this.txtemail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(4);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(406, 35);
             this.txtemail.TabIndex = 6;
@@ -126,6 +127,7 @@
             // 
             // pnButton
             // 
+            this.pnButton.Controls.Add(this.btnSearch);
             this.pnButton.Controls.Add(this.btnQuarto);
             this.pnButton.Controls.Add(this.btnTerceiro);
             this.pnButton.Controls.Add(this.btnSegundo);
@@ -135,15 +137,25 @@
             this.pnButton.Size = new System.Drawing.Size(588, 55);
             this.pnButton.TabIndex = 10;
             // 
-            // btnPrimeiro
+            // btnQuarto
             // 
-            this.btnPrimeiro.Location = new System.Drawing.Point(18, 13);
-            this.btnPrimeiro.Name = "btnPrimeiro";
-            this.btnPrimeiro.Size = new System.Drawing.Size(75, 39);
-            this.btnPrimeiro.TabIndex = 0;
-            this.btnPrimeiro.Text = "<<";
-            this.btnPrimeiro.UseVisualStyleBackColor = true;
-            this.btnPrimeiro.Click += new System.EventHandler(this.btnPrimeiro_Click);
+            this.btnQuarto.Location = new System.Drawing.Point(309, 13);
+            this.btnQuarto.Name = "btnQuarto";
+            this.btnQuarto.Size = new System.Drawing.Size(75, 39);
+            this.btnQuarto.TabIndex = 3;
+            this.btnQuarto.Text = ">>";
+            this.btnQuarto.UseVisualStyleBackColor = true;
+            this.btnQuarto.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnTerceiro
+            // 
+            this.btnTerceiro.Location = new System.Drawing.Point(219, 13);
+            this.btnTerceiro.Name = "btnTerceiro";
+            this.btnTerceiro.Size = new System.Drawing.Size(75, 39);
+            this.btnTerceiro.TabIndex = 2;
+            this.btnTerceiro.Text = ">";
+            this.btnTerceiro.UseVisualStyleBackColor = true;
+            this.btnTerceiro.Click += new System.EventHandler(this.btnTerceiro_Click);
             // 
             // btnSegundo
             // 
@@ -155,25 +167,25 @@
             this.btnSegundo.UseVisualStyleBackColor = true;
             this.btnSegundo.Click += new System.EventHandler(this.btnSegundo_Click);
             // 
-            // btnTerceiro
+            // btnPrimeiro
             // 
-            this.btnTerceiro.Location = new System.Drawing.Point(272, 12);
-            this.btnTerceiro.Name = "btnTerceiro";
-            this.btnTerceiro.Size = new System.Drawing.Size(75, 39);
-            this.btnTerceiro.TabIndex = 2;
-            this.btnTerceiro.Text = ">";
-            this.btnTerceiro.UseVisualStyleBackColor = true;
-            this.btnTerceiro.Click += new System.EventHandler(this.btnTerceiro_Click);
+            this.btnPrimeiro.Location = new System.Drawing.Point(18, 13);
+            this.btnPrimeiro.Name = "btnPrimeiro";
+            this.btnPrimeiro.Size = new System.Drawing.Size(75, 39);
+            this.btnPrimeiro.TabIndex = 0;
+            this.btnPrimeiro.Text = "<<";
+            this.btnPrimeiro.UseVisualStyleBackColor = true;
+            this.btnPrimeiro.Click += new System.EventHandler(this.btnPrimeiro_Click);
             // 
-            // btnQuarto
+            // btnSearch
             // 
-            this.btnQuarto.Location = new System.Drawing.Point(353, 13);
-            this.btnQuarto.Name = "btnQuarto";
-            this.btnQuarto.Size = new System.Drawing.Size(75, 39);
-            this.btnQuarto.TabIndex = 3;
-            this.btnQuarto.Text = ">>";
-            this.btnQuarto.UseVisualStyleBackColor = true;
-            this.btnQuarto.Click += new System.EventHandler(this.button4_Click);
+            this.btnSearch.Image = global::aula_02_10.Properties.Resources.lupa;
+            this.btnSearch.Location = new System.Drawing.Point(416, 13);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 39);
+            this.btnSearch.TabIndex = 4;
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // Form1
             // 
@@ -186,7 +198,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -214,6 +226,7 @@
         private System.Windows.Forms.Button btnTerceiro;
         private System.Windows.Forms.Button btnSegundo;
         private System.Windows.Forms.Button btnPrimeiro;
+        private System.Windows.Forms.Button btnSearch;
     }
 }
 

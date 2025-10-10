@@ -42,3 +42,4 @@ C:\Users\kmartins\Documents\GitHub\Programacao-2\aula-02-10\aula-02-10\obj\Debug
 C:\Users\kmartins\Documents\GitHub\Programacao-2\aula-02-10\aula-02-10\obj\Debug\aula-02-10.exe
 C:\Users\kmartins\Documents\GitHub\Programacao-2\aula-02-10\aula-02-10\obj\Debug\aula-02-10.pdb
 C:\Users\kmartins\Documents\GitHub\Programacao-2\aula-02-10\aula-02-10\obj\Debug\aula-02-10.exe.config
+C:\Users\kmartins\Documents\GitHub\Programacao-2\aula-02-10\aula-02-10\obj\Debug\aula_02_10.frmLista.resources
