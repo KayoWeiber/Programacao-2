@@ -149,5 +149,10 @@ namespace aula_02_10
                 //MessageBox.Show("Busca cancelada!", "Busca de id", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnInserir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

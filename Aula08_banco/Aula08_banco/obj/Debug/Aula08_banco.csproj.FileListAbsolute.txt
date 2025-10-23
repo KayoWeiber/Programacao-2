@@ -1,0 +1,90 @@
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Aula08_banco.exe.config
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Aula08_banco.exe
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Aula08_banco.pdb
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Google.Protobuf.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\K4os.Hash.xxHash.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\MySql.Data.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Buffers.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.IO.Pipelines.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Memory.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Numerics.Vectors.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\ZstdSharp.dll
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Google.Protobuf.pdb
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Google.Protobuf.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\K4os.Hash.xxHash.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\MySql.Data.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Buffers.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.IO.Pipelines.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Memory.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Numerics.Vectors.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.csproj.AssemblyReference.cache
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.Form1.resources
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.Properties.Resources.resources
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.csproj.GenerateResource.cache
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.csproj.CoreCompileInputs.cache
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_b.13E7F017.Up2Date
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.exe
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.pdb
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.exe.config
+D:\Users\sergi\OneDrive\Aulas\aulas 25\UEMG\2sem\PII\Projetos\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.frmbusca.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Aula08_banco.exe.config
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Aula08_banco.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Aula08_banco.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Google.Protobuf.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\MySql.Data.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Buffers.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.IO.Pipelines.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Memory.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\ZstdSharp.dll
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Google.Protobuf.pdb
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Google.Protobuf.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\MySql.Data.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Buffers.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.IO.Pipelines.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Memory.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.csproj.AssemblyReference.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.exe.config
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.Form1.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.frmbusca.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.Properties.Resources.resources
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.csproj.GenerateResource.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.csproj.CoreCompileInputs.cache
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_b.13E7F017.Up2Date
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.exe
+C:\Users\kmartins\Documents\GitHub\Programacao-2\Aula08_banco\Aula08_banco\obj\Debug\Aula08_banco.pdb

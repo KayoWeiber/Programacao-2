@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNom = new System.Windows.Forms.TextBox();
             this.lblId = new System.Windows.Forms.Label();
@@ -35,15 +36,20 @@
             this.txtemail = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnFechar = new System.Windows.Forms.Button();
             this.pnButton = new System.Windows.Forms.Panel();
             this.btnQuarto = new System.Windows.Forms.Button();
             this.btnTerceiro = new System.Windows.Forms.Button();
             this.btnSegundo = new System.Windows.Forms.Button();
             this.btnPrimeiro = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.btnInserir = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel1.SuspendLayout();
             this.pnButton.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -103,6 +109,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.txtemail);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label1);
@@ -115,18 +122,9 @@
             this.panel1.TabIndex = 8;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // btnFechar
-            // 
-            this.btnFechar.Location = new System.Drawing.Point(710, 462);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(137, 62);
-            this.btnFechar.TabIndex = 9;
-            this.btnFechar.Text = "Fechar";
-            this.btnFechar.UseVisualStyleBackColor = true;
-            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
-            // 
             // pnButton
             // 
+            this.pnButton.Controls.Add(this.btnInserir);
             this.pnButton.Controls.Add(this.btnSearch);
             this.pnButton.Controls.Add(this.btnQuarto);
             this.pnButton.Controls.Add(this.btnTerceiro);
@@ -144,6 +142,7 @@
             this.btnQuarto.Size = new System.Drawing.Size(75, 39);
             this.btnQuarto.TabIndex = 3;
             this.btnQuarto.Text = ">>";
+            this.toolTip1.SetToolTip(this.btnQuarto, "Ultimo");
             this.btnQuarto.UseVisualStyleBackColor = true;
             this.btnQuarto.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -154,6 +153,7 @@
             this.btnTerceiro.Size = new System.Drawing.Size(75, 39);
             this.btnTerceiro.TabIndex = 2;
             this.btnTerceiro.Text = ">";
+            this.toolTip1.SetToolTip(this.btnTerceiro, "depois");
             this.btnTerceiro.UseVisualStyleBackColor = true;
             this.btnTerceiro.Click += new System.EventHandler(this.btnTerceiro_Click);
             // 
@@ -164,6 +164,7 @@
             this.btnSegundo.Size = new System.Drawing.Size(75, 39);
             this.btnSegundo.TabIndex = 1;
             this.btnSegundo.Text = "<";
+            this.toolTip1.SetToolTip(this.btnSegundo, "antes");
             this.btnSegundo.UseVisualStyleBackColor = true;
             this.btnSegundo.Click += new System.EventHandler(this.btnSegundo_Click);
             // 
@@ -174,16 +175,55 @@
             this.btnPrimeiro.Size = new System.Drawing.Size(75, 39);
             this.btnPrimeiro.TabIndex = 0;
             this.btnPrimeiro.Text = "<<";
+            this.toolTip1.SetToolTip(this.btnPrimeiro, "primeiro");
             this.btnPrimeiro.UseVisualStyleBackColor = true;
             this.btnPrimeiro.Click += new System.EventHandler(this.btnPrimeiro_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(219, 304);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.TabIndex = 11;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btnFechar);
+            this.panel3.Location = new System.Drawing.Point(240, 476);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(438, 100);
+            this.panel3.TabIndex = 11;
+            // 
+            // btnFechar
+            // 
+            this.btnFechar.Image = global::aula_02_10.Properties.Resources.sair;
+            this.btnFechar.Location = new System.Drawing.Point(298, 22);
+            this.btnFechar.Name = "btnFechar";
+            this.btnFechar.Size = new System.Drawing.Size(137, 62);
+            this.btnFechar.TabIndex = 9;
+            this.toolTip1.SetToolTip(this.btnFechar, "Sair");
+            this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
+            // btnInserir
+            // 
+            this.btnInserir.Image = global::aula_02_10.Properties.Resources.user_interface;
+            this.btnInserir.Location = new System.Drawing.Point(407, 13);
+            this.btnInserir.Name = "btnInserir";
+            this.btnInserir.Size = new System.Drawing.Size(75, 39);
+            this.btnInserir.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.btnInserir, "Inserir");
+            this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
             // btnSearch
             // 
             this.btnSearch.Image = global::aula_02_10.Properties.Resources.lupa;
-            this.btnSearch.Location = new System.Drawing.Point(416, 13);
+            this.btnSearch.Location = new System.Drawing.Point(488, 13);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 39);
             this.btnSearch.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.btnSearch, "Pesquisar");
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
@@ -193,8 +233,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 652);
             this.ControlBox = false;
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.pnButton);
-            this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -207,6 +247,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnButton.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -227,6 +268,10 @@
         private System.Windows.Forms.Button btnSegundo;
         private System.Windows.Forms.Button btnPrimeiro;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnInserir;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
