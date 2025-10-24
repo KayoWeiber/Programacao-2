@@ -174,5 +174,11 @@
   <ItemGroup>
     <None Include="Resources\pencil.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-de-deletar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documento.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
