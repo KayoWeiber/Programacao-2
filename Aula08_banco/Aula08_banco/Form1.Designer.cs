@@ -30,6 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnlDados = new System.Windows.Forms.Panel();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnConfirmar = new System.Windows.Forms.Button();
             this.pnlBuscaNome = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -37,9 +39,6 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlBotoes = new System.Windows.Forms.Panel();
-            this.pnlRodape = new System.Windows.Forms.Panel();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.btnSair = new System.Windows.Forms.Button();
             this.btnBuscaNome = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
@@ -49,13 +48,14 @@
             this.btnProximo = new System.Windows.Forms.Button();
             this.btnAnterioir = new System.Windows.Forms.Button();
             this.btnPrimieiro = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnConfirmar = new System.Windows.Forms.Button();
-            this.pnlBuscarporNome = new System.Windows.Forms.Panel();
-            this.dtgNomes = new System.Windows.Forms.DataGridView();
+            this.pnlRodape = new System.Windows.Forms.Panel();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnCancelarBusca = new System.Windows.Forms.Button();
             this.btnConfirmarBusca = new System.Windows.Forms.Button();
+            this.pnlBuscarporNome = new System.Windows.Forms.Panel();
             this.txtBuscarPorNome = new System.Windows.Forms.TextBox();
+            this.dtgNomes = new System.Windows.Forms.DataGridView();
             this.pnlDados.SuspendLayout();
             this.pnlBotoes.SuspendLayout();
             this.pnlRodape.SuspendLayout();
@@ -65,6 +65,7 @@
             // 
             // pnlDados
             // 
+            this.pnlDados.Controls.Add(this.pnlBuscarporNome);
             this.pnlDados.Controls.Add(this.btnCancelar);
             this.pnlDados.Controls.Add(this.btnConfirmar);
             this.pnlDados.Controls.Add(this.pnlBuscaNome);
@@ -78,6 +79,28 @@
             this.pnlDados.Name = "pnlDados";
             this.pnlDados.Size = new System.Drawing.Size(591, 246);
             this.pnlDados.TabIndex = 6;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Image = global::Aula08_banco.Properties.Resources.multiply;
+            this.btnCancelar.Location = new System.Drawing.Point(338, 191);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(97, 47);
+            this.btnCancelar.TabIndex = 13;
+            this.toolTip1.SetToolTip(this.btnCancelar, "Cancelar");
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
+            // btnConfirmar
+            // 
+            this.btnConfirmar.Image = global::Aula08_banco.Properties.Resources.check;
+            this.btnConfirmar.Location = new System.Drawing.Point(441, 191);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(97, 47);
+            this.btnConfirmar.TabIndex = 12;
+            this.toolTip1.SetToolTip(this.btnConfirmar, "Confirmar");
+            this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // pnlBuscaNome
             // 
@@ -118,6 +141,7 @@
             this.lblId.Size = new System.Drawing.Size(91, 22);
             this.lblId.TabIndex = 8;
             this.toolTip1.SetToolTip(this.lblId, "Id do registro");
+            this.lblId.Click += new System.EventHandler(this.lblId_Click);
             // 
             // txtNome
             // 
@@ -153,25 +177,6 @@
             this.pnlBotoes.Name = "pnlBotoes";
             this.pnlBotoes.Size = new System.Drawing.Size(591, 43);
             this.pnlBotoes.TabIndex = 8;
-            // 
-            // pnlRodape
-            // 
-            this.pnlRodape.Controls.Add(this.btnSair);
-            this.pnlRodape.Location = new System.Drawing.Point(12, 322);
-            this.pnlRodape.Name = "pnlRodape";
-            this.pnlRodape.Size = new System.Drawing.Size(591, 53);
-            this.pnlRodape.TabIndex = 9;
-            // 
-            // btnSair
-            // 
-            this.btnSair.Image = global::Aula08_banco.Properties.Resources.exit;
-            this.btnSair.Location = new System.Drawing.Point(491, 3);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(97, 47);
-            this.btnSair.TabIndex = 8;
-            this.toolTip1.SetToolTip(this.btnSair, "Sair");
-            this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
             // 
             // btnBuscaNome
             // 
@@ -272,52 +277,24 @@
             this.btnPrimieiro.UseVisualStyleBackColor = true;
             this.btnPrimieiro.Click += new System.EventHandler(this.btnPrimieiro_Click);
             // 
-            // btnCancelar
+            // pnlRodape
             // 
-            this.btnCancelar.Image = global::Aula08_banco.Properties.Resources.multiply;
-            this.btnCancelar.Location = new System.Drawing.Point(338, 191);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(97, 47);
-            this.btnCancelar.TabIndex = 13;
-            this.toolTip1.SetToolTip(this.btnCancelar, "Cancelar");
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            this.pnlRodape.Controls.Add(this.btnSair);
+            this.pnlRodape.Location = new System.Drawing.Point(12, 322);
+            this.pnlRodape.Name = "pnlRodape";
+            this.pnlRodape.Size = new System.Drawing.Size(591, 53);
+            this.pnlRodape.TabIndex = 9;
             // 
-            // btnConfirmar
+            // btnSair
             // 
-            this.btnConfirmar.Image = global::Aula08_banco.Properties.Resources.check;
-            this.btnConfirmar.Location = new System.Drawing.Point(441, 191);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(97, 47);
-            this.btnConfirmar.TabIndex = 12;
-            this.toolTip1.SetToolTip(this.btnConfirmar, "Confirmar");
-            this.btnConfirmar.UseVisualStyleBackColor = true;
-            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
-            // 
-            // pnlBuscarporNome
-            // 
-            this.pnlBuscarporNome.Controls.Add(this.txtBuscarPorNome);
-            this.pnlBuscarporNome.Controls.Add(this.btnCancelarBusca);
-            this.pnlBuscarporNome.Controls.Add(this.btnConfirmarBusca);
-            this.pnlBuscarporNome.Controls.Add(this.dtgNomes);
-            this.pnlBuscarporNome.Location = new System.Drawing.Point(15, 12);
-            this.pnlBuscarporNome.Name = "pnlBuscarporNome";
-            this.pnlBuscarporNome.Size = new System.Drawing.Size(588, 304);
-            this.pnlBuscarporNome.TabIndex = 9;
-            this.pnlBuscarporNome.Visible = false;
-            this.pnlBuscarporNome.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // dtgNomes
-            // 
-            this.dtgNomes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgNomes.Location = new System.Drawing.Point(4, 43);
-            this.dtgNomes.Name = "dtgNomes";
-            this.dtgNomes.RowHeadersWidth = 62;
-            this.dtgNomes.RowTemplate.Height = 28;
-            this.dtgNomes.Size = new System.Drawing.Size(581, 249);
-            this.dtgNomes.TabIndex = 0;
-            this.dtgNomes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgNomes_CellContentClick);
-            this.dtgNomes.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.fazBusca);
+            this.btnSair.Image = global::Aula08_banco.Properties.Resources.exit;
+            this.btnSair.Location = new System.Drawing.Point(491, 3);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(97, 47);
+            this.btnSair.TabIndex = 8;
+            this.toolTip1.SetToolTip(this.btnSair, "Sair");
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
             // 
             // btnCancelarBusca
             // 
@@ -341,6 +318,18 @@
             this.btnConfirmarBusca.UseVisualStyleBackColor = true;
             this.btnConfirmarBusca.Click += new System.EventHandler(this.btnConfirmarBusca_Click);
             // 
+            // pnlBuscarporNome
+            // 
+            this.pnlBuscarporNome.Controls.Add(this.txtBuscarPorNome);
+            this.pnlBuscarporNome.Controls.Add(this.btnCancelarBusca);
+            this.pnlBuscarporNome.Controls.Add(this.btnConfirmarBusca);
+            this.pnlBuscarporNome.Location = new System.Drawing.Point(582, 117);
+            this.pnlBuscarporNome.Name = "pnlBuscarporNome";
+            this.pnlBuscarporNome.Size = new System.Drawing.Size(588, 304);
+            this.pnlBuscarporNome.TabIndex = 9;
+            this.pnlBuscarporNome.Visible = false;
+            this.pnlBuscarporNome.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
             // txtBuscarPorNome
             // 
             this.txtBuscarPorNome.Location = new System.Drawing.Point(7, 5);
@@ -349,15 +338,27 @@
             this.txtBuscarPorNome.TabIndex = 16;
             this.txtBuscarPorNome.TextChanged += new System.EventHandler(this.txtBuscarPorNome_TextChanged);
             // 
+            // dtgNomes
+            // 
+            this.dtgNomes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgNomes.Location = new System.Drawing.Point(159, 233);
+            this.dtgNomes.Name = "dtgNomes";
+            this.dtgNomes.RowHeadersWidth = 62;
+            this.dtgNomes.RowTemplate.Height = 28;
+            this.dtgNomes.Size = new System.Drawing.Size(581, 249);
+            this.dtgNomes.TabIndex = 0;
+            this.dtgNomes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgNomes_CellContentClick);
+            this.dtgNomes.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.fazBusca);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(620, 387);
             this.ControlBox = false;
-            this.Controls.Add(this.pnlBuscarporNome);
             this.Controls.Add(this.pnlRodape);
             this.Controls.Add(this.pnlBotoes);
+            this.Controls.Add(this.dtgNomes);
             this.Controls.Add(this.pnlDados);
             this.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
